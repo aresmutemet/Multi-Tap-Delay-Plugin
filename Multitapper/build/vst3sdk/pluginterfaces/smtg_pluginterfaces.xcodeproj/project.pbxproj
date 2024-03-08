@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2C1ADEE5AA514039AC5C70BB /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 14DFFF282B8F441A9BAE328D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				980147981DFEA0ADB9C8BCF0 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				7E7EC93175C344C1B3AFEDD5 /* PBXTargetDependency */,
+				F1E9E3A0F3D040F1A6160EFD /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		B594128304AA4D1880999E72 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C798CD6037B04D32A64E9008 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7A7A4FEE38FC0BF1984CD003 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		074F5823D5B64541A6D4DC4F /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmidilearn.h */ = {isa = PBXBuildFile; fileRef = 814CE909748F40EEAA0D3F4A /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmidilearn.h */; };
+		0A1D13F2F2B7496B8E9C2AF6 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/fvariant.h */ = {isa = PBXBuildFile; fileRef = C83C3CF7C54F409FA458BBB7 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/fvariant.h */; };
+		0CD38512FFA44E60938D2407 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vstpshpack4.h */ = {isa = PBXBuildFile; fileRef = 4A015AE402044A5E9ADDCC54 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vstpshpack4.h */; };
+		10F97EBD4FBD4B3B98778A18 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ibstream.h */ = {isa = PBXBuildFile; fileRef = 54CB69C8C9EF4322A4D4656B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ibstream.h */; };
+		12F2A4C2CCDD44A6AEF59FDC /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/keycodes.h */ = {isa = PBXBuildFile; fileRef = 899D47420953437AA798F8C0 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/keycodes.h */; };
+		1887D48281424963898FA557 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcomponent.h */ = {isa = PBXBuildFile; fileRef = 39F777B04C794D01A3430C55 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcomponent.h */; };
+		198937A415E5444D8E6018CE /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/smartpointer.h */ = {isa = PBXBuildFile; fileRef = 8D83D0807A564E2C82110833 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/smartpointer.h */; };
+		1C0599787FF741E193A306DA /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h */ = {isa = PBXBuildFile; fileRef = 3D9F0EDBE36E4D179B3BD5A7 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h */; };
+		272807C794F04C7AB983A979 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vstpresetkeys.h */ = {isa = PBXBuildFile; fileRef = 4417C85540CE43B798BD64EF /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vstpresetkeys.h */; };
+		302811EDBF1746708A7C4A73 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/iupdatehandler.h */ = {isa = PBXBuildFile; fileRef = C6381CAD4AC04FBA82632992 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/iupdatehandler.h */; };
+		3CD980E092FC41AFAAEF01EB /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstphysicalui.h */ = {isa = PBXBuildFile; fileRef = B98994753C2F41A08783D6B5 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstphysicalui.h */; };
+		3F3922A51E5145B9B194C65F /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/fstrdefs.h */ = {isa = PBXBuildFile; fileRef = 48394711634149FBA587F619 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/fstrdefs.h */; };
+		43ABA5DE00BA4666A45EBE2E /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/funknown.h */ = {isa = PBXBuildFile; fileRef = 55713B7086864B029BC1E91B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/funknown.h */; };
+		43B5565BDE2647B9B1985CDD /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/icloneable.h */ = {isa = PBXBuildFile; fileRef = 75CB3937AE864FF88AEE8A79 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/icloneable.h */; };
+		492D849ADBB04D18AA42AF53 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstprefetchablesupport.h */ = {isa = PBXBuildFile; fileRef = E2C8277644C9448C9C28CE66 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstprefetchablesupport.h */; };
+		49D3DAF7C63A4C59B2EB849C /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ierrorcontext.h */ = {isa = PBXBuildFile; fileRef = CE5D21FDF2A1495DB2DC097E /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ierrorcontext.h */; };
+		4D3F0CAC8C234686994515E9 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmessage.h */ = {isa = PBXBuildFile; fileRef = C31F7640A484436B916A4F1B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmessage.h */; };
+		57D18CD8A5174D12934DEF49 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h */ = {isa = PBXBuildFile; fileRef = 7D82EF1C63284201AD92DCA5 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h */; };
+		61B9D8B9A60C4A5DBE8EB91A /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h */ = {isa = PBXBuildFile; fileRef = DCC89418A86E411498626DF9 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h */; };
+		6249872C81D94186A51D0A8B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivsthostapplication.h */ = {isa = PBXBuildFile; fileRef = 822B6B935890430383A06B0B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivsthostapplication.h */; };
+		6E27EC7BEACC456B8DF83591 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h */ = {isa = PBXBuildFile; fileRef = B2F8E29F3B694BBDB0C1FA8E /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h */; };
+		726D55C170164EF588B82E44 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstrepresentation.h */ = {isa = PBXBuildFile; fileRef = EB5BF654241C409CAC947FEB /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstrepresentation.h */; };
+		7437EE09274D44DC9C783865 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/coreiids.cpp */ = {isa = PBXBuildFile; fileRef = A850ED41FB47405393F66595 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/coreiids.cpp */; };
+		75548AF3983D46E888E1DEF4 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstattributes.h */ = {isa = PBXBuildFile; fileRef = 07C4122BADC342A586A2296D /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstattributes.h */; };
+		8012811E5B014D908E051C92 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/pluginbasefwd.h */ = {isa = PBXBuildFile; fileRef = 7E4687D176934225BCF5C207 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/pluginbasefwd.h */; };
+		82297008957E43278A8E6D2F /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vstspeaker.h */ = {isa = PBXBuildFile; fileRef = 28EC6F66EC784104BAB900CC /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vstspeaker.h */; };
+		8373B4A02494414FACB49C96 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/fplatform.h */ = {isa = PBXBuildFile; fileRef = 075F92AC0BD94366BE21305D /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/fplatform.h */; };
+		8573DCA64101424FA172081E /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/funknownimpl.h */ = {isa = PBXBuildFile; fileRef = C6590006E1A8498D925B4964 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/funknownimpl.h */; };
+		86311B1F0CEE4362B1B8B01B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.h */ = {isa = PBXBuildFile; fileRef = 61B6B616FE4E408EB9807A55 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.h */; };
+		89867BE746C94B998F854E0F /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 155A18F67F3B48768BB7F5A0 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt */; };
+		89E92BCBB89D40C293D23713 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstchannelcontextinfo.h */ = {isa = PBXBuildFile; fileRef = 711284AAA9AB46BD8E06CCDF /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstchannelcontextinfo.h */; };
+		8A8AD71D1AB244EDA6A47B7E /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ipersistent.h */ = {isa = PBXBuildFile; fileRef = B9D818CDEC8741CF8409FF60 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ipersistent.h */; };
+		8FDC38072E884FFF98A90467 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/geoconstants.h */ = {isa = PBXBuildFile; fileRef = 3B4CCEEB0F1E4086BE774C92 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/geoconstants.h */; };
+		90C1E7994374483FB4D9D112 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstunits.h */ = {isa = PBXBuildFile; fileRef = 0B75B1E678A3455FA7FD4EA2 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstunits.h */; };
+		9134595AB4F14F3DABF56DA9 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/futils.h */ = {isa = PBXBuildFile; fileRef = 9E3E649380244E8C818CACB9 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/futils.h */; };
+		948F4FAD86CE4737AB0BEA4E /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ustring.cpp */ = {isa = PBXBuildFile; fileRef = 8C3F1DCBA20D466EAF5A6597 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ustring.cpp */; };
+		972226FDE9F040708F2DB23D /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/falignpush.h */ = {isa = PBXBuildFile; fileRef = 97AD5191AB8F4DB2BA05EBD9 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/falignpush.h */; };
+		98DF8B4D997C45EA931E8C6F /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/typesizecheck.h */ = {isa = PBXBuildFile; fileRef = D2D154AB73A74446AFEDA18B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/typesizecheck.h */; };
+		AA7124E2CFD54642A79A11B8 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstinterappaudio.h */ = {isa = PBXBuildFile; fileRef = E518CDEE5A094B7A887A46C8 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstinterappaudio.h */; };
+		ADDC812689DE49CEBC62A9A9 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h */ = {isa = PBXBuildFile; fileRef = 2EC65AF67D1C404EAF87C233 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h */; };
+		B1094DDD417A44CDAE050DBE /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vsttypes.h */ = {isa = PBXBuildFile; fileRef = 6494AD7C0B2C45B8BEA195ED /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vsttypes.h */; };
+		B3AF92C794F44049B995FA19 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterfunctionname.h */ = {isa = PBXBuildFile; fileRef = 3B836F2E2FE948989A0D1934 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterfunctionname.h */; };
+		B41F72C59D91420C9C992A79 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstevents.h */ = {isa = PBXBuildFile; fileRef = 2547AF1CBF0443D586D1D0A8 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstevents.h */; };
+		B4469B293776455C972D3575 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.cpp */ = {isa = PBXBuildFile; fileRef = 3C1EAF7F10C6407EA1966032 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.cpp */; };
+		B6267448824045DB8C45F671 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcontextmenu.h */ = {isa = PBXBuildFile; fileRef = 453AD961CE1D4D398B532AAB /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcontextmenu.h */; };
+		B6A17A0EF74049159050FC76 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/funknown.cpp */ = {isa = PBXBuildFile; fileRef = 3191DA0F0A53421097D3220F /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/funknown.cpp */; };
+		BF7A9BD61F764B65B9E282D5 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstplugview.h */ = {isa = PBXBuildFile; fileRef = 5152361512B54333A2D1AEE6 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstplugview.h */; };
+		C535511BF3FE457A90304CBF /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstautomationstate.h */ = {isa = PBXBuildFile; fileRef = 49C698408653489BBAFEDEB9 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstautomationstate.h */; };
+		CAC42FC9BFEF4CC5B3EF882E /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ipluginbase.h */ = {isa = PBXBuildFile; fileRef = 5DB8D25AFAF7450088B2A9A2 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ipluginbase.h */; };
+		CAFB662E54A842A5AABB7662 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ucolorspec.h */ = {isa = PBXBuildFile; fileRef = 79CEF1CA42C548B4B6C438FD /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ucolorspec.h */; };
+		CBE932726C74483BA3004A17 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/gui/iplugview.h */ = {isa = PBXBuildFile; fileRef = 10A033F67A4B4265988CB866 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/gui/iplugview.h */; };
+		D19878978FF64D939A6F41A6 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/falignpop.h */ = {isa = PBXBuildFile; fileRef = A2563EAE31FC4D88A81B2FF8 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/falignpop.h */; };
+		D4559A3F6A5D4916BB296EC7 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ftypes.h */ = {isa = PBXBuildFile; fileRef = C8D3CB88B87F4EBCBA4D2BAD /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ftypes.h */; };
+		DA744E6BD57F49DBA9F04D29 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/gui/iplugviewcontentscalesupport.h */ = {isa = PBXBuildFile; fileRef = ED071661039E47CD9CA30DBA /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/gui/iplugviewcontentscalesupport.h */; };
+		EA9DC25EA0A84798B24B3BFF /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ustring.h */ = {isa = PBXBuildFile; fileRef = 7884FAB78A9944CFA11B305B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ustring.h */; };
+		F296CBFA971E4D0F8677EE25 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h */ = {isa = PBXBuildFile; fileRef = F1DF3FC37F8C4A7F83BE9180 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h */; };
+		F2A75979BF45444E81FE1D1C /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/istringresult.h */ = {isa = PBXBuildFile; fileRef = 4FD09FE38C19471C9FA3F15E /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/istringresult.h */; };
+		F5BF829FB4904F2AB8E0FF3D /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h */ = {isa = PBXBuildFile; fileRef = 031B12A809824D81B6E8D21C /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		21AD0F3BB42B42A28CC506F9 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		91A4CFF9E63B44F6BA6EB912 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		3A7C2AEF9DCB4559B9324ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95725025CDFD4B6082E6B7C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B594128304AA4D1880999E72;
+			remoteInfo = ZERO_CHECK;
+		};
+		47CA9F64EB9A4BBD91FF56C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95725025CDFD4B6082E6B7C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B594128304AA4D1880999E72;
+			remoteInfo = ZERO_CHECK;
+		};
+		A82D86DE730A4D48BD33B8E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95725025CDFD4B6082E6B7C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7BC0168C1CD45B280C57CA7;
+			remoteInfo = pluginterfaces;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031B12A809824D81B6E8D21C /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstprocesscontext.h; path = vst/ivstprocesscontext.h; sourceTree = SOURCE_ROOT; };
+		075F92AC0BD94366BE21305D /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/fplatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fplatform.h; path = base/fplatform.h; sourceTree = SOURCE_ROOT; };
+		07C4122BADC342A586A2296D /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstattributes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstattributes.h; path = vst/ivstattributes.h; sourceTree = SOURCE_ROOT; };
+		0B75B1E678A3455FA7FD4EA2 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstunits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstunits.h; path = vst/ivstunits.h; sourceTree = SOURCE_ROOT; };
+		10A033F67A4B4265988CB866 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/gui/iplugview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iplugview.h; path = gui/iplugview.h; sourceTree = SOURCE_ROOT; };
+		155A18F67F3B48768BB7F5A0 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2547AF1CBF0443D586D1D0A8 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstevents.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstevents.h; path = vst/ivstevents.h; sourceTree = SOURCE_ROOT; };
+		28EC6F66EC784104BAB900CC /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vstspeaker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstspeaker.h; path = vst/vstspeaker.h; sourceTree = SOURCE_ROOT; };
+		2EC65AF67D1C404EAF87C233 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivsteditcontroller.h; path = vst/ivsteditcontroller.h; sourceTree = SOURCE_ROOT; };
+		3191DA0F0A53421097D3220F /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/funknown.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = funknown.cpp; path = base/funknown.cpp; sourceTree = SOURCE_ROOT; };
+		39F777B04C794D01A3430C55 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcomponent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstcomponent.h; path = vst/ivstcomponent.h; sourceTree = SOURCE_ROOT; };
+		3B4CCEEB0F1E4086BE774C92 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/geoconstants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = geoconstants.h; path = base/geoconstants.h; sourceTree = SOURCE_ROOT; };
+		3B836F2E2FE948989A0D1934 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterfunctionname.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstparameterfunctionname.h; path = vst/ivstparameterfunctionname.h; sourceTree = SOURCE_ROOT; };
+		3C1EAF7F10C6407EA1966032 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = conststringtable.cpp; path = base/conststringtable.cpp; sourceTree = SOURCE_ROOT; };
+		3D9F0EDBE36E4D179B3BD5A7 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstaudioprocessor.h; path = vst/ivstaudioprocessor.h; sourceTree = SOURCE_ROOT; };
+		4417C85540CE43B798BD64EF /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vstpresetkeys.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstpresetkeys.h; path = vst/vstpresetkeys.h; sourceTree = SOURCE_ROOT; };
+		453AD961CE1D4D398B532AAB /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcontextmenu.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstcontextmenu.h; path = vst/ivstcontextmenu.h; sourceTree = SOURCE_ROOT; };
+		48394711634149FBA587F619 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/fstrdefs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fstrdefs.h; path = base/fstrdefs.h; sourceTree = SOURCE_ROOT; };
+		49C698408653489BBAFEDEB9 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstautomationstate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstautomationstate.h; path = vst/ivstautomationstate.h; sourceTree = SOURCE_ROOT; };
+		4A015AE402044A5E9ADDCC54 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vstpshpack4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstpshpack4.h; path = vst/vstpshpack4.h; sourceTree = SOURCE_ROOT; };
+		4FD09FE38C19471C9FA3F15E /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/istringresult.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = istringresult.h; path = base/istringresult.h; sourceTree = SOURCE_ROOT; };
+		5152361512B54333A2D1AEE6 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstplugview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstplugview.h; path = vst/ivstplugview.h; sourceTree = SOURCE_ROOT; };
+		54CB69C8C9EF4322A4D4656B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ibstream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ibstream.h; path = base/ibstream.h; sourceTree = SOURCE_ROOT; };
+		55713B7086864B029BC1E91B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/funknown.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = funknown.h; path = base/funknown.h; sourceTree = SOURCE_ROOT; };
+		5DB8D25AFAF7450088B2A9A2 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ipluginbase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ipluginbase.h; path = base/ipluginbase.h; sourceTree = SOURCE_ROOT; };
+		61B6B616FE4E408EB9807A55 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = conststringtable.h; path = base/conststringtable.h; sourceTree = SOURCE_ROOT; };
+		6494AD7C0B2C45B8BEA195ED /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vsttypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vsttypes.h; path = vst/vsttypes.h; sourceTree = SOURCE_ROOT; };
+		711284AAA9AB46BD8E06CCDF /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstchannelcontextinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstchannelcontextinfo.h; path = vst/ivstchannelcontextinfo.h; sourceTree = SOURCE_ROOT; };
+		72376C345BF14383AAB903E8 /* pluginterfaces */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libpluginterfaces.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CB3937AE864FF88AEE8A79 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/icloneable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = icloneable.h; path = base/icloneable.h; sourceTree = SOURCE_ROOT; };
+		7884FAB78A9944CFA11B305B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ustring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ustring.h; path = base/ustring.h; sourceTree = SOURCE_ROOT; };
+		79CEF1CA42C548B4B6C438FD /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ucolorspec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ucolorspec.h; path = base/ucolorspec.h; sourceTree = SOURCE_ROOT; };
+		7D82EF1C63284201AD92DCA5 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstnoteexpression.h; path = vst/ivstnoteexpression.h; sourceTree = SOURCE_ROOT; };
+		7E4687D176934225BCF5C207 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/pluginbasefwd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginbasefwd.h; path = base/pluginbasefwd.h; sourceTree = SOURCE_ROOT; };
+		814CE909748F40EEAA0D3F4A /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmidilearn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstmidilearn.h; path = vst/ivstmidilearn.h; sourceTree = SOURCE_ROOT; };
+		822B6B935890430383A06B0B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivsthostapplication.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivsthostapplication.h; path = vst/ivsthostapplication.h; sourceTree = SOURCE_ROOT; };
+		899D47420953437AA798F8C0 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/keycodes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = keycodes.h; path = base/keycodes.h; sourceTree = SOURCE_ROOT; };
+		8C3F1DCBA20D466EAF5A6597 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ustring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ustring.cpp; path = base/ustring.cpp; sourceTree = SOURCE_ROOT; };
+		8D83D0807A564E2C82110833 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/smartpointer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = smartpointer.h; path = base/smartpointer.h; sourceTree = SOURCE_ROOT; };
+		97AD5191AB8F4DB2BA05EBD9 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/falignpush.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = falignpush.h; path = base/falignpush.h; sourceTree = SOURCE_ROOT; };
+		9E3E649380244E8C818CACB9 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/futils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = futils.h; path = base/futils.h; sourceTree = SOURCE_ROOT; };
+		A2563EAE31FC4D88A81B2FF8 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/falignpop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = falignpop.h; path = base/falignpop.h; sourceTree = SOURCE_ROOT; };
+		A268EB4F22884C55855B0F87 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A850ED41FB47405393F66595 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/coreiids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = coreiids.cpp; path = base/coreiids.cpp; sourceTree = SOURCE_ROOT; };
+		B2F8E29F3B694BBDB0C1FA8E /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstparameterchanges.h; path = vst/ivstparameterchanges.h; sourceTree = SOURCE_ROOT; };
+		B98994753C2F41A08783D6B5 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstphysicalui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstphysicalui.h; path = vst/ivstphysicalui.h; sourceTree = SOURCE_ROOT; };
+		B9D818CDEC8741CF8409FF60 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ipersistent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ipersistent.h; path = base/ipersistent.h; sourceTree = SOURCE_ROOT; };
+		C31F7640A484436B916A4F1B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmessage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstmessage.h; path = vst/ivstmessage.h; sourceTree = SOURCE_ROOT; };
+		C6381CAD4AC04FBA82632992 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/iupdatehandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iupdatehandler.h; path = base/iupdatehandler.h; sourceTree = SOURCE_ROOT; };
+		C6590006E1A8498D925B4964 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/funknownimpl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = funknownimpl.h; path = base/funknownimpl.h; sourceTree = SOURCE_ROOT; };
+		C83C3CF7C54F409FA458BBB7 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/fvariant.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fvariant.h; path = base/fvariant.h; sourceTree = SOURCE_ROOT; };
+		C8D3CB88B87F4EBCBA4D2BAD /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ftypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftypes.h; path = base/ftypes.h; sourceTree = SOURCE_ROOT; };
+		CE5D21FDF2A1495DB2DC097E /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ierrorcontext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ierrorcontext.h; path = base/ierrorcontext.h; sourceTree = SOURCE_ROOT; };
+		D2D154AB73A74446AFEDA18B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/typesizecheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = typesizecheck.h; path = base/typesizecheck.h; sourceTree = SOURCE_ROOT; };
+		DCC89418A86E411498626DF9 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstmidicontrollers.h; path = vst/ivstmidicontrollers.h; sourceTree = SOURCE_ROOT; };
+		E2C8277644C9448C9C28CE66 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstprefetchablesupport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstprefetchablesupport.h; path = vst/ivstprefetchablesupport.h; sourceTree = SOURCE_ROOT; };
+		E518CDEE5A094B7A887A46C8 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstinterappaudio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstinterappaudio.h; path = vst/ivstinterappaudio.h; sourceTree = SOURCE_ROOT; };
+		EB5BF654241C409CAC947FEB /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstrepresentation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstrepresentation.h; path = vst/ivstrepresentation.h; sourceTree = SOURCE_ROOT; };
+		ED071661039E47CD9CA30DBA /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/gui/iplugviewcontentscalesupport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iplugviewcontentscalesupport.h; path = gui/iplugviewcontentscalesupport.h; sourceTree = SOURCE_ROOT; };
+		F1DF3FC37F8C4A7F83BE9180 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstpluginterfacesupport.h; path = vst/ivstpluginterfacesupport.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90C75AE133B9413488BB3749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13E182BB3E284EB296FA20E5 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E2B22A82EF874F09AB04E563 /* pluginterfaces */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		4DA8A7E522FE4D2DA29A38FC /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				61B6B616FE4E408EB9807A55 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.h */,
+				A2563EAE31FC4D88A81B2FF8 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/falignpop.h */,
+				97AD5191AB8F4DB2BA05EBD9 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/falignpush.h */,
+				075F92AC0BD94366BE21305D /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/fplatform.h */,
+				48394711634149FBA587F619 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/fstrdefs.h */,
+				C8D3CB88B87F4EBCBA4D2BAD /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ftypes.h */,
+				55713B7086864B029BC1E91B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/funknown.h */,
+				C6590006E1A8498D925B4964 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/funknownimpl.h */,
+				9E3E649380244E8C818CACB9 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/futils.h */,
+				C83C3CF7C54F409FA458BBB7 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/fvariant.h */,
+				3B4CCEEB0F1E4086BE774C92 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/geoconstants.h */,
+				54CB69C8C9EF4322A4D4656B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ibstream.h */,
+				75CB3937AE864FF88AEE8A79 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/icloneable.h */,
+				CE5D21FDF2A1495DB2DC097E /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ierrorcontext.h */,
+				B9D818CDEC8741CF8409FF60 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ipersistent.h */,
+				5DB8D25AFAF7450088B2A9A2 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ipluginbase.h */,
+				4FD09FE38C19471C9FA3F15E /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/istringresult.h */,
+				C6381CAD4AC04FBA82632992 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/iupdatehandler.h */,
+				899D47420953437AA798F8C0 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/keycodes.h */,
+				7E4687D176934225BCF5C207 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/pluginbasefwd.h */,
+				8D83D0807A564E2C82110833 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/smartpointer.h */,
+				D2D154AB73A74446AFEDA18B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/typesizecheck.h */,
+				79CEF1CA42C548B4B6C438FD /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ucolorspec.h */,
+				7884FAB78A9944CFA11B305B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ustring.h */,
+				10A033F67A4B4265988CB866 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/gui/iplugview.h */,
+				ED071661039E47CD9CA30DBA /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/gui/iplugviewcontentscalesupport.h */,
+				07C4122BADC342A586A2296D /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstattributes.h */,
+				3D9F0EDBE36E4D179B3BD5A7 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h */,
+				49C698408653489BBAFEDEB9 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstautomationstate.h */,
+				711284AAA9AB46BD8E06CCDF /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstchannelcontextinfo.h */,
+				39F777B04C794D01A3430C55 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcomponent.h */,
+				453AD961CE1D4D398B532AAB /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcontextmenu.h */,
+				2EC65AF67D1C404EAF87C233 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h */,
+				2547AF1CBF0443D586D1D0A8 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstevents.h */,
+				822B6B935890430383A06B0B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivsthostapplication.h */,
+				E518CDEE5A094B7A887A46C8 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstinterappaudio.h */,
+				C31F7640A484436B916A4F1B /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmessage.h */,
+				DCC89418A86E411498626DF9 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h */,
+				814CE909748F40EEAA0D3F4A /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmidilearn.h */,
+				7D82EF1C63284201AD92DCA5 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h */,
+				B2F8E29F3B694BBDB0C1FA8E /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h */,
+				3B836F2E2FE948989A0D1934 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterfunctionname.h */,
+				B98994753C2F41A08783D6B5 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstphysicalui.h */,
+				F1DF3FC37F8C4A7F83BE9180 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h */,
+				5152361512B54333A2D1AEE6 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstplugview.h */,
+				E2C8277644C9448C9C28CE66 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstprefetchablesupport.h */,
+				031B12A809824D81B6E8D21C /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h */,
+				EB5BF654241C409CAC947FEB /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstrepresentation.h */,
+				0B75B1E678A3455FA7FD4EA2 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstunits.h */,
+				4417C85540CE43B798BD64EF /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vstpresetkeys.h */,
+				4A015AE402044A5E9ADDCC54 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vstpshpack4.h */,
+				28EC6F66EC784104BAB900CC /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vstspeaker.h */,
+				6494AD7C0B2C45B8BEA195ED /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vsttypes.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		566287CEB5A142A4B93BA14F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C65352A9E6E4948AAB0AB65 = {
+			isa = PBXGroup;
+			children = (
+				13E182BB3E284EB296FA20E5 /* Libraries */,
+				81C4DB6DBC474EC6B5B27418 /* ALL_BUILD */,
+				EF723FDC61A44AF9966EFD36 /* Products */,
+				566287CEB5A142A4B93BA14F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81C4DB6DBC474EC6B5B27418 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				EA1375DA28B4425DB639E1FF /* CMake Rules */,
+				A268EB4F22884C55855B0F87 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D360055D9E2B4A7CA7D450CE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C1EAF7F10C6407EA1966032 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.cpp */,
+				A850ED41FB47405393F66595 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/coreiids.cpp */,
+				3191DA0F0A53421097D3220F /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/funknown.cpp */,
+				8C3F1DCBA20D466EAF5A6597 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ustring.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E2B22A82EF874F09AB04E563 /* pluginterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				D360055D9E2B4A7CA7D450CE /* Source Files */,
+				4DA8A7E522FE4D2DA29A38FC /* Header Files */,
+				155A18F67F3B48768BB7F5A0 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt */,
+			);
+			name = pluginterfaces;
+			sourceTree = "<group>";
+		};
+		EA1375DA28B4425DB639E1FF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EF723FDC61A44AF9966EFD36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72376C345BF14383AAB903E8 /* pluginterfaces */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7BC0168C1CD45B280C57CA7 /* pluginterfaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA22DF57FADF408AB7E0EA2F /* Build configuration list for PBXNativeTarget "pluginterfaces" */;
+			buildPhases = (
+				AC96526832824ED08A777957 /* Sources */,
+				90C75AE133B9413488BB3749 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E060440D4CC949959F87F69C /* PBXTargetDependency */,
+			);
+			name = pluginterfaces;
+			productName = pluginterfaces;
+			productReference = 72376C345BF14383AAB903E8 /* pluginterfaces */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95725025CDFD4B6082E6B7C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 6805799DB8554783B9B322EC /* Build configuration list for PBXProject "smtg_pluginterfaces" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				91A4CFF9E63B44F6BA6EB912 /* Debug */,
+				21AD0F3BB42B42A28CC506F9 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 6C65352A9E6E4948AAB0AB65;
+			projectDirPath = /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces;
+			projectRoot = "";
+			targets = (
+				2C1ADEE5AA514039AC5C70BB /* ALL_BUILD */,
+				B594128304AA4D1880999E72 /* ZERO_CHECK */,
+				F7BC0168C1CD45B280C57CA7 /* pluginterfaces */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7A7A4FEE38FC0BF1984CD003 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/aresmute/Desktop/Multitapper/build/vst3sdk/pluginterfaces/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/aresmute/Desktop/Multitapper/build/vst3sdk/pluginterfaces
+  make -f /Users/aresmute/Desktop/Multitapper/build/vst3sdk/pluginterfaces/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/aresmute/Desktop/Multitapper/build/vst3sdk/pluginterfaces
+  make -f /Users/aresmute/Desktop/Multitapper/build/vst3sdk/pluginterfaces/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		980147981DFEA0ADB9C8BCF0 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/aresmute/Desktop/Multitapper/build/vst3sdk/pluginterfaces/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/aresmute/Desktop/Multitapper/build/vst3sdk/pluginterfaces
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/aresmute/Desktop/Multitapper/build/vst3sdk/pluginterfaces
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC96526832824ED08A777957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4469B293776455C972D3575 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.cpp */,
+				7437EE09274D44DC9C783865 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/coreiids.cpp */,
+				B6A17A0EF74049159050FC76 /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/funknown.cpp */,
+				948F4FAD86CE4737AB0BEA4E /* /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ustring.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E7EC93175C344C1B3AFEDD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7BC0168C1CD45B280C57CA7 /* pluginterfaces */;
+			targetProxy = A82D86DE730A4D48BD33B8E0 /* PBXContainerItemProxy */;
+		};
+		E060440D4CC949959F87F69C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B594128304AA4D1880999E72 /* ZERO_CHECK */;
+			targetProxy = 47CA9F64EB9A4BBD91FF56C2 /* PBXContainerItemProxy */;
+		};
+		F1E9E3A0F3D040F1A6160EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B594128304AA4D1880999E72 /* ZERO_CHECK */;
+			targetProxy = 3A7C2AEF9DCB4559B9324ABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38B4F1DA13654358BFB14DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3B34DBDBF4A34A248D6F06C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		698DBCF3D43F413F961E55B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SYMROOT = /Users/aresmute/Desktop/Multitapper/build/build;
+			};
+			name = Debug;
+		};
+		7545CCF2E8674FF5B94DB3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/aresmute/Desktop/Multitapper/build/build;
+			};
+			name = Release;
+		};
+		BD1699A348104E71A347007F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D3D16DBB6260434D959629C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/aresmute/Desktop/Multitapper/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'SMTG_USE_STDATOMIC_H=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/aresmute/Documents/VST_SDK/vst3sdk,/Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pluginterfaces;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/aresmute/Desktop/Multitapper/build/build/pluginterfaces.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E65F239FC9EF45B48AC8D212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/aresmute/Desktop/Multitapper/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'SMTG_USE_STDATOMIC_H=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/aresmute/Documents/VST_SDK/vst3sdk,/Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pluginterfaces;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/aresmute/Desktop/Multitapper/build/build/pluginterfaces.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F46C7AAAF2A146CE85B49936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14DFFF282B8F441A9BAE328D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1699A348104E71A347007F /* Debug */,
+				3B34DBDBF4A34A248D6F06C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6805799DB8554783B9B322EC /* Build configuration list for PBXProject "smtg_pluginterfaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				698DBCF3D43F413F961E55B5 /* Debug */,
+				7545CCF2E8674FF5B94DB3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C798CD6037B04D32A64E9008 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46C7AAAF2A146CE85B49936 /* Debug */,
+				38B4F1DA13654358BFB14DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA22DF57FADF408AB7E0EA2F /* Build configuration list for PBXNativeTarget "pluginterfaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D16DBB6260434D959629C9 /* Debug */,
+				E65F239FC9EF45B48AC8D212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95725025CDFD4B6082E6B7C3 /* Project object */;
+}

@@ -1,0 +1,33 @@
+Target dependency graph (9 targets)
+pluginterfaces in Multitapper, no dependencies
+base in Multitapper, no dependencies
+sdk_common in Multitapper, depends on:
+pluginterfaces in Multitapper (explicit)
+base in Multitapper (explicit)
+sdk in Multitapper, depends on:
+pluginterfaces in Multitapper (explicit)
+base in Multitapper (explicit)
+sdk_common in Multitapper (explicit)
+sdk_hosting in Multitapper, depends on:
+pluginterfaces in Multitapper (explicit)
+base in Multitapper (explicit)
+sdk_common in Multitapper (explicit)
+validator in Multitapper, depends on:
+pluginterfaces in Multitapper (explicit)
+base in Multitapper (explicit)
+sdk_common in Multitapper (explicit)
+sdk_hosting in Multitapper (explicit)
+moduleinfotool in Multitapper, depends on:
+pluginterfaces in Multitapper (explicit)
+base in Multitapper (explicit)
+sdk_common in Multitapper (explicit)
+sdk_hosting in Multitapper (explicit)
+ZERO_CHECK in Multitapper, no dependencies
+Multitapper in Multitapper, depends on:
+pluginterfaces in Multitapper (explicit)
+base in Multitapper (explicit)
+sdk_common in Multitapper (explicit)
+sdk in Multitapper (explicit)
+validator in Multitapper (explicit)
+moduleinfotool in Multitapper (explicit)
+ZERO_CHECK in Multitapper (explicit)

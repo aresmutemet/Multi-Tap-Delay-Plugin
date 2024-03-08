@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/testsuite/state/bypasspersistence.cpp \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/testsuite/state/bypasspersistence.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/testsuite/processing/automation.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/testsuite/processing/process.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/processdata.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcomponent.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ipluginbase.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/funknown.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/fplatform.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ftypes.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/smartpointer.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/fstrdefs.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vsttypes.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/falignpush.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/falignpop.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/vstspeaker.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/testsuite/testbase.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/test/itest.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivsttestplugprovider.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/istringresult.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/public.sdk/source/common/memorystream.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ibstream.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstpresetfile.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/pluginterfaces/vst/ivstunits.h \
+  /Users/aresmute/Documents/VST_SDK/vst3sdk/base/source/fbuffer.h
